@@ -1,4 +1,4 @@
 # Review Hotel Detector
 
 _Nama : Wulan Nur Afifah_
--Nim : 20.01.53.0001-
+_Nim : 20.01.53.0001_
