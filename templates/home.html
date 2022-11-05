@@ -5,8 +5,8 @@
 	<!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Let's Check The Reviews Data">
-    <meta name="description" content="Positife or Negative | Reviews Data Detector">
+    <meta name="keywords" content="Detector Review Positive dan Negative">
+    <meta name="description" content="Positive or Negative Review">
     
     <link rel="icon" type="image/png" href="" />
     
@@ -79,8 +79,8 @@
       <div class="container text-xs-center text-white">
         <a href="https://github.com/maladeep/sms-spam-ham-detector" target="_blank" title="View code at Github"> <ion-icon name="logo-github" size="large"></ion-icon></a>
 
-        <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Positife or Negative | Reviews Data Detector</h1>
-        <p class="lead" align="center"> Paste your reviews data below to check whether it is positife review or negative review.  </p>
+        <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Positive or Negative | Detector Review Hotel </h1>
+        <p class="lead" align="center"> Paste your Review below to check whether it is Positive or Negative.  </p>
         
       </div>
     </div>
@@ -95,9 +95,9 @@
 	<div class="container">
 <div class="well">
 		<form action="{{ url_for('predict')}}" method="POST" align="center">
-		<p class="lead">Enter Your Review Data below</p>
+		<p class="lead">Enter Your Review below</p>
 		
-		<textarea name="message" rows="4" cols="50" placeholder="Check Here" required="required"></textarea>
+		<textarea name="message" rows="4" cols="50" placeholder="Try: Room clean " required="required"></textarea>
 		<br/>
 
 		<input type="submit" class="btn-info btn" value="Let's Check" >
